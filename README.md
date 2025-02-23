@@ -81,3 +81,19 @@ Performance Metrics:
 🎯 Recall for hazardous objects: 88% (high detection rate)
 
 ⚠️ Precision: 31% (some false positives)
+
+
+
+🔍 Key Findings and Insights
+
+Most NEOs are non-hazardous, with only a small percentage classified as potentially dangerous.
+
+Larger asteroids (higher diameter values) tend to have a higher likelihood of being hazardous, though not all large objects pose a risk.
+
+Relative velocity and miss distance do not strongly correlate with hazard classification, indicating that other features may play a bigger role in determining risk.
+
+The model performs well in detecting hazardous objects (high recall), but suffers from low precision, meaning some non-hazardous objects are misclassified as dangerous.
+
+Feature selection and engineering improvements could enhance the predictive power of the model, particularly by considering additional astronomical data.
+
+
